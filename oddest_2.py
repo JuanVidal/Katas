@@ -13,6 +13,5 @@ def odd2(L):
 def oddest(a):
     return a[0] if len(a) == 1 else a[odd2(a)]
 
-#A = oddest([1, 2, 3, 4, 5, 6, 8, 9, 10])
 A = oddest([47, -33,2, 44, 6, -19, 15, 1109, 201, -1114])
 print(A)
